@@ -21,7 +21,7 @@ class Pendu :
 
     
     def nouveau_mot(self) :
-        liste_mots = ['jeux', 'ordinateur', 'voiture','magnifique','tenture']
+        liste_mots = ['jeux', 'ordinateur', 'voiture','monstre','magnifique','tenture']
         return random.choice(liste_mots)
 
     
