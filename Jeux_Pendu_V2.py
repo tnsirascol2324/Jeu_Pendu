@@ -10,7 +10,7 @@ import random
         nouveau_mot(self) -> str :
             Sélectionne un mot aléatoire parmi une liste prédéfinie
             Return :
-                str : Le mot sélectionnée
+                str : Le mot sélectionné
 
 """
 
@@ -21,7 +21,7 @@ class Pendu :
 
     
     def nouveau_mot(self) :
-        liste_mots = ['jeux', 'ordinateur', 'voiture']
+        liste_mots = ['jeux', 'ordinateur', 'voiture','magnifique','tenture']
         return random.choice(liste_mots)
 
     
